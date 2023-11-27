@@ -1,31 +1,31 @@
 <template>
   <div class="container d-flex align-center justify-center flex-wrap">
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Bomdod</h2>
       <p class="text-h6">Vaqt: {{ this.tong_saharlik }}</p>
     </v-sheet>
 
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Quyosh</h2>
       <p class="text-h6">Vaqt: {{ this.quyosh }}</p>
     </v-sheet>
 
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Peshin</h2>
       <p class="text-h6">Vaqt: {{ this.peshin }}</p>
     </v-sheet>
 
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Asr</h2>
       <p class="text-h6">Vaqt: {{ this.asr }}</p>
     </v-sheet>
 
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Shom</h2>
       <p class="text-h6">Vaqt: {{ this.shom_iftor }}</p>
     </v-sheet>
 
-    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
+    <v-sheet :elevation="7" :height="200" :width="200" border color="success" rounded class="mx-2 my-5 d-flex align-center justify-space-around flex-column text-center mx-auto px-4">
       <h2 class="text-h5 font-weight-black">Hufton</h2>
       <p class="text-h6">Vaqt: {{ this.hufton }}</p>
     </v-sheet>
